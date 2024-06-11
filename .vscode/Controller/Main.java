@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class Main 
-
 {
     public static void main(String[] args) throws Exception
     {
         Scanner sc=new Scanner(System.in);
+        
         Regex reg=new Regex();
         System.out.println("WELCOME");
         System.out.println();
@@ -20,12 +20,6 @@ public class Main
             System.out.println("-----***** WELCOME ADMIN *****-----");
             Manager mg=new Manager();
             mg.manager();
-        }
-        else if(b==true)
-        {
-            System.out.println("----***** WELCOME USER *****-----");
-            User us=new User();
-            us.user();
         }
         else 
         {
