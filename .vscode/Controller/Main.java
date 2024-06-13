@@ -3,8 +3,7 @@ public class Main
 {
     public static void main(String[] args) throws Exception
     {
-        Scanner sc=new Scanner(System.in);
-        
+        Scanner sc=new Scanner(System.in); 
         Regex reg=new Regex();
         System.out.println("WELCOME");
         System.out.println();
